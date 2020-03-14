@@ -1,0 +1,32 @@
+{
+  "name": "all_miniprogram_api-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:wx": "node ./loader-runner",
+    "build:my": "plaform=my node ./loader-runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxx2258/all_miniprogram_api-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wxx2258/all_miniprogram_api-loader/issues"
+  },
+  "homepage": "https://github.com/wxx2258/all_miniprogram_api-loader#readme",
+  "devDependencies": {
+    "@babel/template": "^7.8.6",
+    "babel-template": "^6.26.0",
+    "loader-runner": "^3.1.0",
+    "loader-utils": "^1.4.0"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.8.8",
+    "@babel/parser": "^7.8.8",
+    "@babel/traverse": "^7.8.6"
+  }
+}
